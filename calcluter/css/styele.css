@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  color: #000000;
+  margin: 10px auto;
+  text-align: center;
+}
+.container {
+  max-width: 70%;
+  margin: 0px auto;
+}
+.container > form {
+  margin-top: 45px;
+  width: 50%;
+  margin: 80px auto;
+}
+.calculator_head > #output_aria {
+  width: 100%;
+}
+.calculator_display {
+  margin: 10px 0px;
+}
+input {
+  margin: 1px;
+  cursor: pointer;
+}
+input:hover {
+  background: lightgray !important;
+}
+input.kyes {
+  width: 76px;
+  height: 63px;
+  background: #fff;
+  font-size: 24px;
+  max-width: 100%;
+}
+input.keys_ekual {
+  width: 76px;
+  height: 258px;
+  position: absolute;
+  left: 50.5%;
+  background: #e02401;
+  font-size: 22px;
+  max-width: 100%;
+}
+input.keys_ekual:hover {
+  background-color: green !important;
+  color: #fff !important;
+}
+input#output_aria {
+  width: 68%;
+  height: 82px;
+  background: black;
+  border-radius: 9px;
+  padding: 15px;
+  color: #fff;
+  font-size: 25px;
+  max-width: 100%;
+}
+input#output_aria:hover {
+  background: black;
+  color: #fff;
+}
+
+input.kyes.kye_operator {
+  background: #d2d2d26e;
+}

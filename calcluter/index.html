@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculator</title>
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/styele.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>TARIF AL HASAN CALCLUTAR</h1>
+      <form action="">
+        <div class="calculator_display">
+          <input type="text" name="" maxlength="10" id="output_aria" />
+        </div>
+        <div class="calculator_keys">
+          <input
+            type="button"
+            value="+"
+            class="kyes kye_operator"
+            onclick="calclution('+')"
+          />
+          <input
+            type="button"
+            value="-"
+            class="kyes kye_operator"
+            onclick="calclution('-')"
+          />
+          <input
+            type="button"
+            value="*"
+            class="kyes kye_operator"
+            onclick="calclution('*')"
+          />
+          <input
+            type="button"
+            value="÷"
+            class="kyes kye_operator"
+            onclick="calclution('/')"
+          />
+          <br />
+          <input
+            type="button"
+            value="7"
+            class="kyes"
+            onclick="calclution('7')"
+          />
+          <input
+            type="button"
+            value="8"
+            class="kyes"
+            onclick="calclution('8')"
+          />
+          <input
+            type="button"
+            value="9"
+            class="kyes"
+            onclick="calclution('9')"
+          />
+          <input
+            type="button"
+            value="="
+            class="keys_ekual"
+            onclick="Answer()"
+          />
+          <br />
+          <input
+            type="button"
+            value="4"
+            class="kyes"
+            onclick="calclution('4')"
+          />
+
+          <input
+            type="button"
+            value="5"
+            class="kyes"
+            onclick="calclution('5')"
+          />
+
+          <input
+            type="button"
+            value="6"
+            class="kyes"
+            onclick="calclution('6')"
+          />
+          <br />
+          <input
+            type="button"
+            value="1"
+            class="kyes"
+            onclick="calclution('1')"
+          />
+
+          <input
+            type="button"
+            value="2"
+            class="kyes"
+            onclick="calclution('2')"
+          />
+
+          <input
+            type="button"
+            value="3"
+            class="kyes"
+            onclick="calclution('3')"
+          />
+          <br />
+
+          <input
+            type="button"
+            value="0"
+            class="kyes"
+            onclick="calclution('0')"
+          />
+
+          <input
+            type="button"
+            value="."
+            class="kyes"
+            onclick="calclution('.')"
+          />
+          <input type="button" value="C" class="kyes" onclick="DeleteMe()" />
+
+          <br />
+        </div>
+      </form>
+    </div>
+    <!--custom js  -->
+    <script src="./js/tarif.js"></script>
+  </body>
+</html>
